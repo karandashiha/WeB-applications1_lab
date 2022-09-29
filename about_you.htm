@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+   <title>Збір інформаії з метою стоворення динамічних посилань</title>
+</head>
+
+<body>
+   <h2>Введіть довіткову інформацію про себе</h2>
+   <form action="/links.php" method="get">
+      <h3>Контакна інформація:</h3>
+      Ім'я<input name="_name" type="text">
+      <br>
+      <br>Прізвище:<input name="last_name" type="text">
+      <br>
+      <br>Домашній телефон:<input name="home_phone" type="text">
+      <br>
+      <br>Ваш email:<input name="email" type="text">
+      <br>
+      <h3>Інформація про ваш навчальний заклад</h3>
+      Назва учбового закладу<input name="vuz_name" type="text">
+      <br>
+      <br>Факультет:<input name="fac_name" type="text">
+      <br>
+      <br>Курс:<input name="course" type="text">
+      <br>
+
+      <h3>Ваші захоплення</h3>
+      Комп'ютерні ігри:<input name="hobby" type="radio" value="Комп'ютерні ігри" checked>
+      <br>Шахи<input name="hobby" type="radio" value="Шахи" checked>
+      <br>Спорт<input name="hobby" type="radio" value="Спорт" checked>
+      <br>Мистецтво<input name="hobby" type="radio" value="Мистецтво" checked>
+      <p><input type="submit" name="Надіслати" value="Надіслати">
+         <input type="reset" name="Відмінити" value="Відмінити">
+      </p>
+   </form>
+</body>
+</html>
